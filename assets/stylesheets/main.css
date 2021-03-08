@@ -1,0 +1,34 @@
+<style type="text/css">
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+/* .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+     
+}
+ 
+ #logo {
+     grid-column-start: 1;
+     grid-column-end: 2;
+ }
+
+img {
+    display: block;
+}
+
+.searchbar {
+
+} */
+
+</style>
