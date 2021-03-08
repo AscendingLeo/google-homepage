@@ -46,24 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /*end of CSS reset */
-
-
 
 body {
     font-family: Arial, sans-serif;
     font-size: 18px;
 }
 
-
 #logo {
+    display: block;
     margin: 80px 0px 10px 0px;
     margin-left: auto;
     margin-right: auto; 
 }
 
 #searchbar{
-
     margin: auto;
     height: 45px;
     width: 500px;
@@ -81,7 +79,7 @@ body {
    border-radius: 2px;
    margin: 30px 5px 0px 5px;
    font-size: 0.8em;
-   padding: 15px 
+   padding: 10px 15px 10px 15px; 
     
 }
 
@@ -98,50 +96,48 @@ body {
     font-weight: bold;
     border-style: none;
     border-radius: 2px;
+    margin-right: 20px; 
+}
+
+.top-nav {
+    display: table;
+    width: 100%;
 }
 
 .top-right-nav {
     float: right;
-    margin: 20px;
+    margin: 10px;
 }
 
 .top-left-nav {
     float: left;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
-/* .push {
-    float: right;
- } */
+.bottom-nav {
+    color: rgb(68, 68, 68);
+    background-color: #EFEFEF;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, auto) 1fr auto auto auto;
+    position: fixed;
+    bottom: 0px;
+}
 
-/* .main-nav {
-     display: flex; 
-} */
+#item1 { grid-column: 1/2; }
+#item2 { grid-column: 2/3; }
+#item3 { grid-column: 3/4; }
+#item4 { grid-column: 5/6; }
+#item5 { grid-column: 6/7; }
+#item6 { grid-column: 7/8; }
 
 li {
     font-size: 0.8em !important;
     display: inline !important; 
-    margin: 10px 10px 10px 10px !important; 
+    margin: 10px 10px 10px 10px !important;
+    text-align: center; 
 }
-
-/* .wrapper {
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(3,auto);
-     
-}
- 
- #logo {
-     grid-column-start: 1;
-     grid-column-end: 2;
- }
-
-img {
-    display: block;
-}
-
-.searchbar {
-
-} */
-
