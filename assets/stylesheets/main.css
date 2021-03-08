@@ -93,16 +93,24 @@ body {
     padding: 10px;
     background-color: #4285F4;
     font-size: 0.8em;
-    margin-left: auto;
 }
 
+.top-right-nav {
+    float: right;
+}
+
+/* .push {
+    float: right;
+ } */
+
 .main-nav {
-    display: flex;
+    /* display: flex; */
 }
 
 li {
     font-size: 0.8em;
     display: inline;
+    margin: 10px;
 }
 
 /* .wrapper {
