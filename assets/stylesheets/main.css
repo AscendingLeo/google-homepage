@@ -1,14 +1,12 @@
-<style type="text/css">
-
 #logo {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 p {
     text-align: center;
 }
-
 
 
 /* .wrapper {
@@ -31,4 +29,3 @@ img {
 
 } */
 
-</style>
